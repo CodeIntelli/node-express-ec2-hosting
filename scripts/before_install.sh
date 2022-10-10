@@ -2,9 +2,9 @@
 
 # Download Node And NPM
 # sudo apt install -y curl 
-curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
-. ~/.profile
-nvm install node
+# curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+# . ~/.profile
+# nvm install node
 # . ~/.nvm/nvm.sh
 
 
