@@ -1,18 +1,18 @@
 #!/bin/bash
 
 # Download Node And NPM
-sudo apt install -y curl 
+# sudo apt install -y curl 
 curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
-. ~/.nvm/nvm.sh
+. ~/.profile
 nvm install node
-# . ~/.profile
+# . ~/.nvm/nvm.sh
 
 
 # Create Our Working Directory if its dosen't Exist
 DIR="/home/ubuntu/express-app"
-if [ -d "$DIR"]; then
+if [ -d "$DIR" ]; then
     echo "${DIR} exists"
 else
     echo "Creating ${DIR} directory"
-    mkdir ${DIR} 
+    sudo mkdir ${DIR} 
 fi
