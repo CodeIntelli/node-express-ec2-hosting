@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo chmod -R 777 /home/ubuntu//express-app
+sudo chmod -R 777 /home/ubuntu/express-app
 
 # Navigate into our working directory where we have all github files
 cd /home/ubuntu//express-app
