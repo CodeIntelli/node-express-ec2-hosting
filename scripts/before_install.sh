@@ -9,7 +9,7 @@ nvm install node
 
 
 # Create Our Working Directory if its dosen't Exist
-DIR="/home/ubuntu//express-app"
+DIR="/home/ubuntu/express-app"
 if [ -d "$DIR"]; then
     echo "${DIR} exists"
 else
