@@ -8,7 +8,7 @@ app.get("/post", (req, res) => {
   res.json({
     name: "Product API",
     data: [
-      { id: 1, productTitle: "Samsung" },
+      { id: 1, productTitle: "Samsung   " },
       { id: 2, productTitle: "Iphone" },
     ],
     message: "Success Fetched Data",
